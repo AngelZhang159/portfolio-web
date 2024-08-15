@@ -3,5 +3,5 @@ export const sections = [
 	"about",
 	"experience",
 	"projects",
-	"contact"
+	"contact",
 ]
