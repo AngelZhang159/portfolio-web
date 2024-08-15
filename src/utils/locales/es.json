@@ -3,5 +3,7 @@
 	"about": "Sobre mí",
 	"experience": "Experiencia",
 	"projects": "Proyectos",
-	"contact": "Contacto"
+	"contact": "Contacto",
+	"website-made-by-me": "Página web hecha por mí",
+		"built-with": "Construido con <1>React</1> y <3>TailwindCSS</3> usando <5>Visual Studio Code</5>, <7 /> desplegado a través de <9>GitHub Pages</9>, y servido por <11>Cloudflare</11>."
 }
