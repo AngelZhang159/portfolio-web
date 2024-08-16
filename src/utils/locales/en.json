@@ -5,7 +5,7 @@
 	"projects": "Projects",
 	"contact": "Contact",
 	"website-made-by-me": "Website made by me",
-	"built-with": "Built with <1>React</1> and <3>TailwindCSS</3> using <5>Visual Studio Code</5>, <7 /> deployed via <9>GitHub Pages</9>, and served by <11>Cloudflare</11>.",
+	"built-with": "Built with <1>React</1> and <3>TailwindCSS</3> using <5>Visual Studio Code</5>, <7 /> deployed via <9>GitHub Pages</9>, and served by <11>Cloudflare</11>. <13 /> <14 /><15 > ➡️ Check out the code here! </15>",
 	"software-developer": "Software Developer",
 	"in-progress": "Web development in progress..."
 }
