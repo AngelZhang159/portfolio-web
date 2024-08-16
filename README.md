@@ -50,9 +50,11 @@ This portfolio web is built using React and TailwindCSS. It serves as a personal
 - **Comunicaciones Electrónicas Mundo SMS**: Worked as a Mobile Developer, successfully deployed the company's first mobile app on both the Apple App Store and Google Play Store, and contributed to various other tasks.
 
 ## Projects
-1. **Project One**: A web application that does XYZ.
-2. **Project Two**: A mobile-friendly site for ABC.
-3. **Project Three**: An e-commerce platform with features like DEF.
+1. **Armonia Skills**: An **Android** mobile application that allows users to post their skills and get hired by others. It features an integrated real-time chat for seamless communication between users.
+   
+2. **Armonia Skills Backend**: The backend service for the Armonia Skills app, built with **Spring Boot** and **MySQL**. It is deployed on **AWS EC2** and **RDS**, providing the necessary endpoints for the app's functionality.
+   
+3. **Armonia Bills**: An **Android** mobile application that enables users to create groups for splitting bills and making payments. It leverages various **Firebase** services for its backend operations.
 
 ## Running the Project Locally
 To run this project on your local machine, follow these steps:
