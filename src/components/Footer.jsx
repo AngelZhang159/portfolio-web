@@ -4,7 +4,7 @@ import MadeByMe from "./footer/MadeByMe";
 
 export default function Footer() {
 	return (
-		<footer id="contact" className='bottom-0 fixed w-full text-white'>
+		<footer id="contact" className=' w-full text-white'>
 			<hr />
 			<div className="flex justify-around items-center p-10">
 
@@ -12,7 +12,7 @@ export default function Footer() {
 
 				<p>
 					<Trans i18nKey="built-with">
-						Built with <b>React</b> and <b>TailwindCSS</b> using <b>Visual Studio Code</b>, <br /> deployed via <b>GitHub Pages</b>, and served by <b>Cloudflare</b>.
+						Built with <b className="text-primary">React</b> and <b className="text-primary">TailwindCSS</b> using <b className="text-primary">Visual Studio Code</b>, <br /> deployed via <b className="text-primary">GitHub Pages</b>, and served by <b className="text-primary">Cloudflare</b>.
 					</Trans>
 				</p>
 			</div>
