@@ -5,7 +5,7 @@ import { domain } from '../data/domain'
 
 export default function Header({ changeLanguage, language }) {
 	return (
-		<header className='px-20 shadow-xl py-12 text-white w-full'>
+		<header className='px-20 shadow-xl py-12 w-full'>
 			<nav className='flex justify-between items-center'>
 				<HeaderTitle domain={domain} />
 

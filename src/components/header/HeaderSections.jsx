@@ -8,7 +8,7 @@ export default function HeaderSections() {
 		<div className='gap-10 flex text-gray-300 absolute left-1/2 transform -translate-x-1/2'>
 
 			{sections.map(section => {
-				return <SectionButton text={t(section)} section={section} />
+				return <SectionButton key={section} text={t(section)} section={section} />
 			})}
 		</div>
 	)
