@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import { useEffect, useState } from 'react'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
 import i18n from './utils/i18n'
 import { languages } from './data/languages'
+import { useTheme } from './components/ThemeContext'
 
 function App() {
 
@@ -15,8 +15,22 @@ function App() {
 		setLanguage(code)
 	}
 
+	const { isDarkMode, toggleTheme } = useTheme();
+
+	useEffect(() => {
+		if (isDarkMode) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+		}
+	}, [isDarkMode]);
+
 	return (
 		<>
+			{/* FIX THEME CHANGE COLORS
+			<button onClick={toggleTheme} className='text-white dark:text-black'>
+				Toggle Dark Mode
+			</button>*/}
 			<Header changeLanguage={changeLanguage} language={language} />
 			<Main />
 			<Footer />
