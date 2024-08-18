@@ -1,3 +1,4 @@
+import React from "react";
 export default function LangButton({ languageCode, currentLanguage, text, changeLanguage }) {
 	return (
 		<button

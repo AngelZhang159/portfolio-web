@@ -1,10 +1,6 @@
-import { t } from "i18next";
-import Badge from "./main/Badge";
+import React from "react";
 import Experience from "./main/sections/Experience";
 import MainTitle from "./main/sections/MainTitle";
-import SectionFrame from "./main/SectionFrame";
-import SectionTitle from "./main/SectionTitle";
-import { Trans } from "react-i18next";
 import About from "./main/sections/About";
 
 export default function Main() {

@@ -1,4 +1,4 @@
-import Badge from "../Badge";
+import React from "react";
 import BadgeGroup from "../BadgeGroup";
 import SectionFrame from "../SectionFrame";
 import SectionTitle from "../SectionTitle";

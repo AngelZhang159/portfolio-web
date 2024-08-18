@@ -1,3 +1,4 @@
+import React from "react";
 import { t } from "i18next";
 import Badge from "../Badge";
 import SectionFrame from "../SectionFrame";
@@ -5,7 +6,7 @@ import SectionFrame from "../SectionFrame";
 export default function MainTitle() {
 	return (
 		<SectionFrame>
-			<div className="inline-block p-20 relative z-10 w-full text-center" >
+			<div className="inline-block pb-20 relative z-10 w-full text-center" >
 				<p className=" font-extrabold text-9xl text-transparent bg-clip-text bg-gradient-to-br to-blue-300 from-pink-300 leading-normal tracking-wide">
 					Angel Zhang
 				</p>

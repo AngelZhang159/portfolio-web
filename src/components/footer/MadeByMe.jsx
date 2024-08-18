@@ -1,5 +1,6 @@
 import IconButtonLink from "./IconButtonLink";
 import { contact } from '../../data/contact'
+import React from "react";
 import { t } from "i18next";
 
 export default function MadeByMe() {

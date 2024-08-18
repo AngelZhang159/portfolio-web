@@ -1,3 +1,4 @@
+import React from "react";
 import LangButton from "./LangButton";
 import { languages } from "../../data/languages"
 

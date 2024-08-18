@@ -1,3 +1,4 @@
+import React from "react";
 export default function Badge({ text, icon, color }) {
 	return (
 		<div className={"inline-flex px-4 py-2 items-center rounded-full border-2"} style={{ borderColor: color }}>

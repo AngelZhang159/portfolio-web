@@ -1,6 +1,7 @@
 import { Trans } from "react-i18next";
 import SectionFrame from "../SectionFrame";
 import SectionTitle from "../SectionTitle";
+import React from "react";
 import { t } from "i18next";
 
 export default function About() {

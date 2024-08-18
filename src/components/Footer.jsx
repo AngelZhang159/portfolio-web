@@ -1,3 +1,4 @@
+import React from "react";
 import MadeByMe from "./footer/MadeByMe";
 import WebInfo from "./footer/WebInfo";
 

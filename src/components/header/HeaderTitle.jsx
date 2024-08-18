@@ -1,11 +1,10 @@
+import React from "react";
 export default function HeaderTitle({ domain }) {
 	return (
-		<div className='items-center font-bold'>
-			<a href='#home'>
-				<span className='text-blue-100'>
-					{domain}
-				</span>
-			</a>
-		</div>
+		<a href='#home' className='items-center font-bold'>
+			<span className='text-blue-100'>
+				{domain}
+			</span>
+		</a>
 	)
 }
