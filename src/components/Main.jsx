@@ -2,7 +2,6 @@ import React from "react";
 import Experience from "./main/sections/Experience";
 import MainTitle from "./main/sections/MainTitle";
 import About from "./main/sections/About";
-import Badge from "./main/Badge";
 
 export default function Main() {
 	return (

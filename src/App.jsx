@@ -17,6 +17,7 @@ function App() {
 		setLanguage(code)
 	}
 
+	// eslint-disable-next-line no-unused-vars
 	const { isDarkMode, toggleTheme } = useTheme();
 
 	useEffect(() => {
