@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 export default function IconButtonLink({ link, image }) {
 	return (
@@ -7,3 +8,8 @@ export default function IconButtonLink({ link, image }) {
 		</a>
 	)
 }
+
+IconButtonLink.propTypes = {
+	link: PropTypes.string.isRequired,
+	image: PropTypes.string.isRequired,
+};

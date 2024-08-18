@@ -1,5 +1,6 @@
 import React from "react";
 import Badge from "./Badge"
+import PropTypes from 'prop-types';
 
 export default function BadgeGroup({ badges }) {
 	return (
@@ -9,4 +10,16 @@ export default function BadgeGroup({ badges }) {
 			})}
 		</div>
 	)
+}
+
+const badgePropType = PropTypes.shape({
+	text: PropTypes.string.isRequired,
+	icon: PropTypes.string.isRequired,
+	color: PropTypes.string
+})
+
+const badgesPropType = PropTypes.arrayOf(badgePropType).isRequired;
+
+BadgeGroup.propTypes = {
+	badges: badgesPropType
 }

@@ -5,6 +5,8 @@ import Main from './components/Main'
 import i18n from './utils/i18n'
 import { languages } from './data/languages'
 import { useTheme } from './components/ThemeContext'
+import React from "react";
+
 
 function App() {
 

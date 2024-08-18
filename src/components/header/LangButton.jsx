@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import React from "react";
+
 export default function LangButton({ languageCode, currentLanguage, text, changeLanguage }) {
 	return (
 		<button
@@ -9,4 +11,11 @@ export default function LangButton({ languageCode, currentLanguage, text, change
 			{text}
 		</button>
 	)
+}
+
+LangButton.propTypes = {
+	languageCode: PropTypes.string.isRequired,
+	currentLanguage: PropTypes.string.isRequired,
+	text: PropTypes.string.isRequired,
+	changeLanguage: PropTypes.func.isRequired
 }

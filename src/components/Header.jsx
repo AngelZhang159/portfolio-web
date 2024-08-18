@@ -3,6 +3,7 @@ import React from "react";
 import HeaderSections from './header/HeaderSections'
 import Languages from './header/Languages'
 import { domain } from '../data/domain'
+import PropTypes from 'prop-types';
 
 export default function Header({ changeLanguage, language }) {
 	return (
@@ -17,3 +18,8 @@ export default function Header({ changeLanguage, language }) {
 		</header>
 	)
 }
+
+Header.propTypes = {
+	changeLanguage: PropTypes.func.isRequired,
+	language: PropTypes.string.isRequired,
+};

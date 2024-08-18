@@ -1,6 +1,8 @@
 import React from "react";
 import LangButton from "./LangButton";
 import { languages } from "../../data/languages"
+import PropTypes from 'prop-types';
+
 
 export default function Languages({ changeLanguage, language }) {
 
@@ -11,4 +13,9 @@ export default function Languages({ changeLanguage, language }) {
 			<LangButton languageCode={languages[1].code} currentLanguage={language} text={languages[1].name} changeLanguage={changeLanguage} />
 		</div>
 	)
+}
+
+Languages.propTypes = {
+	changeLanguage: PropTypes.func.isRequired,
+	language: PropTypes.string.isRequired
 }
