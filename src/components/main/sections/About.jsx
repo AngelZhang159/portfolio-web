@@ -27,16 +27,16 @@ export default function About() {
 
 				<div className="flex justify-end relative min-w-[350px] h-[500px]">
 					<div className="bg-zinc-800 z-10 relative">
-						<img src="/images/portrait.webp" className="flex w-[350px] h-[500px] pb-16 px-4 z-20" />
+						<img src="/images/portrait.webp" className="flex w-[350px] h-[500px] pb-16 px-4 z-20" alt="Portrait of Angel Zhang" />
 						<div className="bg-zinc-500 z-30 h-1/3 absolute bottom-0 w-full block">
 							<div className="p-6">
 								<p className="font-bold text-4xl pb-2 flex text-white">{t("contact")}</p>
 								<div className="inline-flex">
-									<img src="/icons/gmail.svg" className="pr-4" />
+									<img src="/icons/gmail.svg" className="pr-4" alt="Email icon" />
 									<p className="text-lg">angelzhang159@gmail.com</p>
 								</div>
 								<div className="inline-flex">
-									<img src="/icons/phone.svg" className="pr-4" alt="" />
+									<img src="/icons/phone.svg" className="pr-4" alt="Phone number icon" />
 									<p>+34 671315209</p>
 								</div>
 							</div>

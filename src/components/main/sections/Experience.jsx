@@ -21,7 +21,7 @@ export default function Experience() {
 
 				<div className="flex-col flex items-center px-10">
 					<p>April - June 2024</p>
-					<img src="/images/mundo-sms-logo.webp" alt="" className="w-36 pt-10" />
+					<img src="/images/mundo-sms-logo.webp" alt="Mundo SMS logo" className="w-36 pt-10" />
 				</div>
 
 				<div className="text-xl max-w-prose">

@@ -12,7 +12,7 @@ export default function MadeByMe() {
 
 			<div className="inline-flex gap-8 justify-center">
 				{contact.map(link => {
-					return <IconButtonLink key={link.name} link={link.link} image={link.image} />
+					return <IconButtonLink key={link.name} link={link.link} image={link.image} alt={link.alt} />
 				})}
 			</div>
 		</div>
