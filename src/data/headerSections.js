@@ -1,5 +1,5 @@
 export const sections = [
-	"home",
+	"Home",
 	"about",
 	"experience",
 	"projects",
