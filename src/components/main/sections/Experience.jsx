@@ -1,19 +1,20 @@
-import Badge from "./Badge";
-import BadgeGroup from "./BadgeGroup";
-import SectionFrame from "./SectionFrame";
-import SectionTitle from "./SectionTitle";
-import { badges } from "../../data/jobBadges";
+import Badge from "../Badge";
+import BadgeGroup from "../BadgeGroup";
+import SectionFrame from "../SectionFrame";
+import SectionTitle from "../SectionTitle";
+import { badges } from "../../../data/jobBadges";
 import { t } from "i18next";
 
 export default function Experience() {
 	return (
 		<SectionFrame id={"experience"}>
 
+			<SectionTitle fromColor={"from-green-300"} toColor={"to-yellow-200"}>
+				{t('experience')}
+			</SectionTitle>
+
 			<div className="text-xl max-w-prose">
 
-				<SectionTitle fromColor={"from-green-300"} toColor={"to-yellow-200"}>
-					{t('experience')}
-				</SectionTitle>
 
 				<p className="text-3xl"><b>{t('mobile-developer-internship')}</b></p>
 				<br />
@@ -36,8 +37,8 @@ export default function Experience() {
 				</p>
 
 				<BadgeGroup badges={badges} />
-			</div>
 
+			</div>
 		</SectionFrame>
 	)
 }

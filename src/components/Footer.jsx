@@ -3,10 +3,9 @@ import WebInfo from "./footer/WebInfo";
 
 export default function Footer() {
 	return (
-		<footer id="contact" className=' w-full text-white pt-20'>
+		<footer id="contact" className='text-white'>
 			<hr />
-			<div className="flex justify-around items-center p-10">
-
+			<div className="flex justify-between items-center m-auto py-10 w-2/3">
 				<MadeByMe />
 
 				<WebInfo />
