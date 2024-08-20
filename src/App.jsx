@@ -15,6 +15,8 @@ function App() {
 	const changeLanguage = (code) => {
 		i18n.changeLanguage(code)
 		setLanguage(code)
+
+		document.documentElement.lang = code;
 	}
 
 	// eslint-disable-next-line no-unused-vars
