@@ -14,6 +14,7 @@ export default function MainTitle() {
 					{t('software-developer')}
 				</p>
 				<Badge text={`${t('available-to-work')}`} color="#66ff94" />
+
 				<p className="text-3xl pt-16">{t('in-progress')}</p>
 			</div >
 		</SectionFrame>
