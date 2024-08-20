@@ -29,5 +29,18 @@ export const projects = [
 		],
 		link: "https://github.com/AngelZhang159/armonia-skills-back"
 	},
-
+	{
+		title: "Portfolio (This website!)",
+		description: "I created this website to showcase my portfolio and projects, while also enhancing my React and web development skills.",
+		badges: [
+			{ text: "React", icon: "/icons/react.svg", color: "#61DAFB", alt: "React icon" },
+			{ text: "Tailwind CSS", icon: "/icons/tailwind.svg", color: "#06B6D4", alt: "Tailwind CSS icon" },
+			{ text: "HTML5", icon: "/icons/html.svg", color: "#E34F26", alt: "HTML icon" },
+			{ text: "CSS3", icon: "/icons/css.svg", color: "#1572B6", alt: "CSS icon" },
+			{ text: "JavaScript", icon: "/icons/js.svg", color: "#F7DF1E", alt: "JavaScript icon" },
+			{ text: "VS Code", icon: "/icons/vscode.svg", color: "#219edf", alt: "VS Code icon" },
+			{ text: "GitHub Pages", icon: "/icons/github-pages.svg", color: "#FFFFFF", alt: "GitHub Pages icon" },
+		],
+		link: "https://github.com/AngelZhang159/armonia-skills-back"
+	},
 ]
