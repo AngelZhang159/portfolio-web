@@ -19,5 +19,6 @@
   "deployed-server": "Desplegué un servidor Linux con Kamailio complementario a la aplicacion",
   "pr-spring-desc": "Aplicación Spring Boot que maneja la lógica de negocio necesaria para que la aplicación Android funcione. Desplegada en AWS EC2 y base de datos en RDS.",
   "pr-armonia-skills-desc": "Aplicación donde los usuarios crean y contratan servicios ('skills'), conectando proveedores de servicios con clientes.",
-  "go-to-github": "Ir a GitHub ➡️"
+  "go-to-github": "Ir a GitHub ➡️",
+  "pr-portfolio-desc": "Creé este sitio web para mostrar mi portafolio y proyectos, y al mismo tiempo mejorar mis habilidades de desarrollo web y aprender React."
 }
