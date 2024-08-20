@@ -41,7 +41,7 @@ export default function Card({ title, description, photos, badges, link }) {
 						<BadgeGroup badges={badges} />
 
 						<div className='flex w-full flex-row-reverse'>
-							<a href={link} className='right-0 font-bold text-white bg-blue-800 rounded-full py-2 px-4 hover:bg-blue-500 transition-colors duration-300'>{t('go-to-github')}</a>
+							<a href={link} className='right-0 font-bold text-white bg-blue-800 rounded-full py-2 px-4 hover:bg-blue-500 transition-colors duration-300' target='_blank' rel='noreferrer noopener'>{t('go-to-github')}</a>
 
 						</div>
 
