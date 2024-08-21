@@ -42,6 +42,8 @@ export default function Experience() {
 						<b>
 							{t('my-role')}
 						</b>
+						<br />
+						<br />
 						<ul className="list-disc pl-10">
 							<li>{t('first-app')}</li>
 							<li>{t('deployed-app')}</li>

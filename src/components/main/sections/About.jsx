@@ -13,7 +13,7 @@ export default function About() {
 
 			<div className="text-balance lg:flex items-center">
 
-				<div className="text-2xl text-wrap leading-loose lg:pr-10 pb-20 lg:pb-0">
+				<div className="text-lg text-balance lg:text-2xl leading-loose lg:pr-10 pb-20 lg:pb-0">
 					<p>
 						<Trans i18nKey="recent-graduate">
 							I am a recent graduate with a degree in Multiplatform Application Development (<b>DAM</b>), and I have experience in various programming languages, including <b>Java</b>.
@@ -25,20 +25,18 @@ export default function About() {
 					</p>
 				</div>
 
-				<div className="flex justify-end relative min-w-[350px] h-[500px]">
-					<div className="bg-zinc-800 z-10 relative">
-						<img src="/images/portrait.webp" className="flex w-[350px] h-[500px] pb-16 px-4 z-20" alt="Portrait of Angel Zhang" />
-						<div className="bg-zinc-500 z-30 h-1/3 absolute bottom-0 w-full block">
-							<div className="p-6">
-								<p className="font-bold text-4xl pb-2 flex text-white">{t("contact")}</p>
-								<div className="inline-flex">
-									<img src="/icons/gmail.svg" className="pr-4" alt="Email icon" />
-									<p className="text-lg">angelzhang159@gmail.com</p>
-								</div>
-								<div className="inline-flex">
-									<img src="/icons/phone.svg" className="pr-4" alt="Phone number icon" />
-									<p>+34 671315209</p>
-								</div>
+				<div className="flex justify-center lg:justify-end relative lg:min-w-[350px] lg:h-[500px] min-w-[250px] h-[400px] bg-zinc-800">
+					<img src="/images/portrait.webp" className="absolute lg:w-[350px] lg:h-[500px] min-w-[250px] h-[400px] pb-16 px-4 z-20" alt="Portrait of Angel Zhang" />
+					<div className="absolute bottom-0 w-full bg-zinc-500 z-30 h-1/3">
+						<div className="p-6 text-sm lg:text-lg">
+							<p className="font-bold text-2xl lg:text-4xl pb-2 text-white">{t("contact")}</p>
+							<div className="flex items-center">
+								<img src="/icons/gmail.svg" className="pr-4" alt="Email icon" />
+								<p>angelzhang159@gmail.com</p>
+							</div>
+							<div className="flex items-center">
+								<img src="/icons/phone.svg" className="pr-4" alt="Phone number icon" />
+								<p>+34 671315209</p>
 							</div>
 						</div>
 					</div>
