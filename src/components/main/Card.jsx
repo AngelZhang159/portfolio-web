@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import BadgeGroup from './BadgeGroup'
+import LinkButton from './LinkButton'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Navigation } from 'swiper/modules';
@@ -41,7 +42,8 @@ export default function Card({ title, description, photos, badges, link }) {
 						<BadgeGroup badges={badges} />
 
 						<div className='flex w-full flex-row-reverse'>
-							<a href={link} className='right-0 font-bold text-white bg-blue-800 rounded-full py-2 px-4 hover:bg-blue-500 transition-colors duration-300' target='_blank' rel='noreferrer noopener'>{t('go-to-github')}</a>
+
+							<LinkButton text={t('go-to-github')} link={link} />
 
 						</div>
 

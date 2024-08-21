@@ -40,6 +40,7 @@ export const projects = [
 			{ text: "JavaScript", icon: "/icons/js.svg", color: "#F7DF1E", alt: "JavaScript icon" },
 			{ text: "VS Code", icon: "/icons/vscode.svg", color: "#219edf", alt: "VS Code icon" },
 			{ text: "GitHub Pages", icon: "/icons/github-pages.svg", color: "#FFFFFF", alt: "GitHub Pages icon" },
+			{ text: "Cloudflare", icon: "/icons/cloudflare.svg", color: "#F38020", alt: "Cloudflare icon" },
 		],
 		link: "https://github.com/AngelZhang159/portfolio-web"
 	},

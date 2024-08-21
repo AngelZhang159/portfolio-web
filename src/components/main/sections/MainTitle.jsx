@@ -7,15 +7,15 @@ export default function MainTitle() {
 	return (
 		<SectionFrame id="title">
 			<div className="inline-block pb-20 relative z-10 w-full text-center" >
-				<p className=" font-extrabold text-9xl text-transparent bg-clip-text bg-gradient-to-br to-blue-300 from-pink-300 leading-normal tracking-wide">
+				<h1 className=" font-extrabold text-9xl text-transparent bg-clip-text bg-gradient-to-br to-blue-300 from-pink-300 leading-normal tracking-wide">
 					Angel Zhang
-				</p>
-				<p className="text-6xl text-blue-200 drop-shadow-2xl shadow-background pb-10">
+				</h1>
+				<h2 className="text-6xl text-blue-200 drop-shadow-2xl shadow-background pb-10">
 					{t('software-developer')}
-				</p>
+				</h2>
 				<Badge text={`${t('available-to-work')}`} color="#66ff94" />
 
-				<p className="text-3xl pt-16">{t('in-progress')}</p>
+				<h3 className="text-3xl pt-16">{t('in-progress')}</h3>
 			</div >
 		</SectionFrame>
 	)
