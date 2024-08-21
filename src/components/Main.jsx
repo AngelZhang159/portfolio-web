@@ -6,7 +6,7 @@ import Projects from "./main/sections/Projects";
 
 export default function Main() {
 	return (
-		<main className="block justify-center items-center text-white mx-auto w-2/3">
+		<main className="block justify-center items-center text-white mx-auto w-10/12 lg:w-2/3">
 			<MainTitle />
 
 			<About />

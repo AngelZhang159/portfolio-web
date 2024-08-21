@@ -12,7 +12,7 @@ export default function Projects() {
 			<SectionTitle fromColor="from-yellow-200" toColor="to-orange-500">
 				{t('projects')}
 			</SectionTitle>
-			<div className="w-full grid justify-between lg:grid-cols-2 sm:grid-cols-1 items-center">
+			<div className="w-full grid justify-between lg:grid-cols-2 grid-cols-1 items-center">
 				{projects.map(project => {
 					return (
 						<Card key={project.title} title={project.title} description={project.description} photos={project.photos} badges={project.badges} link={project.link} />

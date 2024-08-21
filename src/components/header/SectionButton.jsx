@@ -1,15 +1,24 @@
 import PropTypes from 'prop-types';
 import React from "react";
 
-export default function SectionButton({ text, section }) {
+export default function SectionButton({ text, section, onClick }) {
 
-	const handleClick = (e) => {
+	const scrollSmooth = (e) => {
 		e.preventDefault();
 		const targetSection = document.getElementById(section);
 		if (targetSection) {
 			targetSection.scrollIntoView({ behavior: 'smooth' });
 		}
 	};
+
+	const handleClick = ((e) => {
+		if (onClick) {
+			scrollSmooth(e);
+			onClick();
+		} else {
+			scrollSmooth(e)
+		}
+	})
 
 	return (
 		<li href={`/${section}`} className='hover:scale-110 transition-transform hover:text-white' onClick={handleClick}>
@@ -20,5 +29,6 @@ export default function SectionButton({ text, section }) {
 
 SectionButton.propTypes = {
 	text: PropTypes.string.isRequired,
-	section: PropTypes.string.isRequired
+	section: PropTypes.string.isRequired,
+	onClick: PropTypes.func
 }

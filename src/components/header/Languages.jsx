@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 export default function Languages({ changeLanguage, language }) {
 
 	return (
-		<div className='font-light gap-4 flex'>
+		<div className='font-light gap-4 hidden lg:flex'>
 			<LangButton languageCode={languages[0].code} currentLanguage={language} text={languages[0].name} changeLanguage={changeLanguage} />
 			<span>/</span>
 			<LangButton languageCode={languages[1].code} currentLanguage={language} text={languages[1].name} changeLanguage={changeLanguage} />

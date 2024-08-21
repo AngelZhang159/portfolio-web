@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import BadgeGroup from './BadgeGroup'
 import LinkButton from './LinkButton'
@@ -10,6 +10,32 @@ import 'swiper/css/navigation';
 import { t } from 'i18next';
 
 export default function Card({ title, description, photos, badges, link }) {
+
+	const [slidesPerView, setSlidesPerView] = useState(1);
+
+	useEffect(() => {
+		const updateSlidesPerView = () => {
+			if (window.innerWidth >= 1024) {
+				setSlidesPerView(3);
+			} else if (window.innerWidth >= 768) {
+				setSlidesPerView(2);
+			} else {
+				setSlidesPerView(1);
+			}
+		};
+
+		// Initial check
+		updateSlidesPerView();
+
+		// Add event listener
+		window.addEventListener('resize', updateSlidesPerView);
+
+		// Clean up event listener
+		return () => {
+			window.removeEventListener('resize', updateSlidesPerView);
+		};
+	}, []);
+
 	return (
 		<div className="p-3.5">
 			<div className="border rounded-3xl relative">
@@ -23,7 +49,7 @@ export default function Card({ title, description, photos, badges, link }) {
 
 						<Swiper
 							navigation={true}
-							slidesPerView={3}
+							slidesPerView={slidesPerView}
 							spaceBetween={30}
 							centeredSlides={false}
 							modules={[Navigation]}
@@ -35,7 +61,7 @@ export default function Card({ title, description, photos, badges, link }) {
 							) : <></>}
 						</Swiper>
 
-						<p className={`break-words pt-4 ${photos == null ? 'line-clamp-6' : 'line-clamp-3'}`}>
+						<p className={`break-words pt-4 ${photos == null ? 'lg:line-clamp-6 line-clamp-none' : 'lg:line-clamp-3'}`}>
 							{t(description)}
 						</p>
 

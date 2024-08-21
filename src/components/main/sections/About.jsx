@@ -11,9 +11,9 @@ export default function About() {
 				{t('about')}
 			</SectionTitle>
 
-			<div className="flex items-center">
+			<div className="text-balance lg:flex items-center">
 
-				<div className="text-2xl text-wrap leading-loose pr-10">
+				<div className="text-2xl text-wrap leading-loose lg:pr-10 pb-20 lg:pb-0">
 					<p>
 						<Trans i18nKey="recent-graduate">
 							I am a recent graduate with a degree in Multiplatform Application Development (<b>DAM</b>), and I have experience in various programming languages, including <b>Java</b>.
