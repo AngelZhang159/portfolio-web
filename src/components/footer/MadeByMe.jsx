@@ -5,7 +5,7 @@ import { t } from "i18next"
 
 export default function MadeByMe() {
 	return (
-		<div className="flex flex-col items-center justify-center self-center">
+		<div className="flex flex-1 flex-col items-center justify-center self-center">
 			<p className="pb-4 text-center">{t("website-made-by-me")}</p>
 
 			<div className="inline-flex justify-center gap-8">

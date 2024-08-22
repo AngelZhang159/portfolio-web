@@ -6,7 +6,7 @@ export default function Footer() {
 	return (
 		<footer id="contact" className="text-white">
 			<hr />
-			<div className="m-auto flex w-2/3 flex-col items-center gap-12 py-10 lg:flex-row lg:justify-between">
+			<div className="m-auto flex w-2/3 flex-col items-center gap-12 text-balance py-10 lg:flex-row lg:justify-between">
 				<MadeByMe />
 
 				<WebInfo />
