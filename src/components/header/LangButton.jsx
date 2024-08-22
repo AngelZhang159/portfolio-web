@@ -1,10 +1,15 @@
-import PropTypes from 'prop-types';
-import React from "react";
+import PropTypes from "prop-types"
+import React from "react"
 
-export default function LangButton({ languageCode, currentLanguage, text, changeLanguage }) {
+export default function LangButton({
+	languageCode,
+	currentLanguage,
+	text,
+	changeLanguage,
+}) {
 	return (
 		<button
-			className={`${currentLanguage === languageCode ? 'font-extrabold text-primary' : 'font-extralight'}`}
+			className={`${currentLanguage === languageCode ? "font-extrabold text-primary" : "font-extralight"}`}
 			key={languageCode}
 			onClick={() => changeLanguage(languageCode)}
 		>
@@ -17,5 +22,5 @@ LangButton.propTypes = {
 	languageCode: PropTypes.string.isRequired,
 	currentLanguage: PropTypes.string.isRequired,
 	text: PropTypes.string.isRequired,
-	changeLanguage: PropTypes.func.isRequired
+	changeLanguage: PropTypes.func.isRequired,
 }

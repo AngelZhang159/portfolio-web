@@ -1,7 +1,1 @@
-export const sections = [
-	"Home",
-	"about",
-	"experience",
-	"projects",
-	"contact",
-]
+export const sections = ["Home", "about", "experience", "projects", "contact"]

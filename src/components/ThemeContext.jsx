@@ -1,24 +1,24 @@
 // ThemeContext.js
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext } from "react"
 
-const ThemeContext = createContext();
+const ThemeContext = createContext()
 
 export const ThemeProvider = ({ children }) => {
-	const [isDarkMode, setIsDarkMode] = useState(true);
+	const [isDarkMode, setIsDarkMode] = useState(true)
 
 	const toggleTheme = () => {
-		setIsDarkMode(!isDarkMode);
-	};
+		setIsDarkMode(!isDarkMode)
+	}
 
 	return (
 		<ThemeContext.Provider value={{ isDarkMode, toggleTheme }}>
 			{children}
 		</ThemeContext.Provider>
-	);
-};
+	)
+}
 
 export const useTheme = () => {
-	console.log('Theme changed');
+	console.log("Theme changed")
 
 	return useContext(ThemeContext)
-};
+}

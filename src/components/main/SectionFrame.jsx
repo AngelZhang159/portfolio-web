@@ -1,9 +1,9 @@
-import PropTypes from 'prop-types';
-import React from "react";
+import PropTypes from "prop-types"
+import React from "react"
 
 export default function SectionFrame({ children, id }) {
 	return (
-		<section id={id} className="block justify-center w-full py-20">
+		<section id={id} className="block w-full justify-center py-20">
 			{children}
 		</section>
 	)
@@ -11,5 +11,5 @@ export default function SectionFrame({ children, id }) {
 
 SectionFrame.propTypes = {
 	children: PropTypes.node.isRequired,
-	id: PropTypes.string.isRequired
+	id: PropTypes.string.isRequired,
 }

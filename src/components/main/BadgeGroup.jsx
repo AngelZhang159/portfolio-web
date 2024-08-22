@@ -1,12 +1,20 @@
-import React from "react";
+import React from "react"
 import Badge from "./Badge"
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types"
 
 export default function BadgeGroup({ badges }) {
 	return (
 		<div className="flex flex-wrap gap-4 py-8">
-			{badges.map(badge => {
-				return <Badge key={badge.text} color={badge.color} icon={badge.icon} text={badge.text} alt={badge.alt} />
+			{badges.map((badge) => {
+				return (
+					<Badge
+						key={badge.text}
+						color={badge.color}
+						icon={badge.icon}
+						text={badge.text}
+						alt={badge.alt}
+					/>
+				)
 			})}
 		</div>
 	)
@@ -15,11 +23,11 @@ export default function BadgeGroup({ badges }) {
 const badgePropType = PropTypes.shape({
 	text: PropTypes.string.isRequired,
 	icon: PropTypes.string.isRequired,
-	color: PropTypes.string
+	color: PropTypes.string,
 })
 
-const badgesPropType = PropTypes.arrayOf(badgePropType).isRequired;
+const badgesPropType = PropTypes.arrayOf(badgePropType).isRequired
 
 BadgeGroup.propTypes = {
-	badges: badgesPropType
+	badges: badgesPropType,
 }

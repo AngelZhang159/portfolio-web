@@ -1,34 +1,37 @@
-import PropTypes from 'prop-types';
-import React from "react";
+import PropTypes from "prop-types"
+import React from "react"
 
 export default function SectionButton({ text, section, onClick }) {
-
 	const scrollSmooth = (e) => {
-		e.preventDefault();
-		const targetSection = document.getElementById(section);
+		e.preventDefault()
+		const targetSection = document.getElementById(section)
 		if (targetSection) {
-			targetSection.scrollIntoView({ behavior: 'smooth' });
+			targetSection.scrollIntoView({ behavior: "smooth" })
 		}
-	};
+	}
 
-	const handleClick = ((e) => {
+	const handleClick = (e) => {
 		if (onClick) {
-			scrollSmooth(e);
-			onClick();
+			scrollSmooth(e)
+			onClick()
 		} else {
 			scrollSmooth(e)
 		}
-	})
+	}
 
 	return (
-		<li href={`/${section}`} className='hover:scale-110 transition-transform hover:text-white' onClick={handleClick}>
+		<li
+			href={`/${section}`}
+			className="transition-transform hover:scale-110 hover:text-white"
+			onClick={handleClick}
+		>
 			{text}
-		</li >
+		</li>
 	)
 }
 
 SectionButton.propTypes = {
 	text: PropTypes.string.isRequired,
 	section: PropTypes.string.isRequired,
-	onClick: PropTypes.func
+	onClick: PropTypes.func,
 }

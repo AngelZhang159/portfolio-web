@@ -1,13 +1,14 @@
-import PropTypes from 'prop-types';
-import React from "react";
+import PropTypes from "prop-types"
+import React from "react"
 
 export default function Badge({ text, icon, color, alt }) {
 	return (
-		<div className={"inline-flex px-3 py-2 items-center rounded-full border-2"} style={{ borderColor: color }}>
+		<div
+			className={"inline-flex items-center rounded-full border-2 px-3 py-2"}
+			style={{ borderColor: color }}
+		>
 			{icon ? <img src={icon} className="size-6" alt={alt} /> : <></>}
-			<p className="font-bold pl-2">
-				{text}
-			</p>
+			<p className="pl-2 font-bold">{text}</p>
 		</div>
 	)
 }
