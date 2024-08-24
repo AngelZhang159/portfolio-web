@@ -1,18 +1,18 @@
 export const contact = [
 	{
-		name: "email",
+		name: "Email",
 		link: "mailto:angelzhang159@gmail.com",
 		image: "/icons/gmail.svg",
 		alt: "Email me",
 	},
 	{
-		name: "github",
+		name: "GitHub",
 		link: "https://github.com/AngelZhang159",
 		image: "/icons/github.svg",
 		alt: "GitHub profile",
 	},
 	{
-		name: "linkedin",
+		name: "LinkedIn",
 		link: "https://www.linkedin.com/in/angelzhang159",
 		image: "/icons/linkedin.svg",
 		alt: "LinkedIn profile",

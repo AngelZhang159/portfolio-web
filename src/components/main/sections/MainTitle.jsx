@@ -2,6 +2,8 @@ import React from "react"
 import { t } from "i18next"
 import Badge from "../Badge"
 import SectionFrame from "../SectionFrame"
+import LinkButton from "../LinkButton"
+import { contact } from "../../../data/contact"
 
 export default function MainTitle() {
 	return (
@@ -16,7 +18,19 @@ export default function MainTitle() {
 				<Badge text={`${t("available-to-work")}`} color="#66ff94" />
 
 				<h3 className="text-balance pt-16 text-2xl lg:text-3xl">
-					{t("in-progress")}
+					{/*{t("in-progress")}*/}
+
+					<div className="flex justify-center gap-4">
+						{contact.map((contact) => {
+							return (
+								<LinkButton
+									link={contact.link}
+									text={contact.name}
+									icon={contact.image}
+								/>
+							)
+						})}
+					</div>
 				</h3>
 			</div>
 		</SectionFrame>
