@@ -27,10 +27,10 @@ export default function About() {
 				<div className="relative flex h-[400px] min-w-[250px] justify-center bg-zinc-800 lg:h-[500px] lg:min-w-[350px] lg:justify-end">
 					<img
 						src="/images/portrait.webp"
-						className="absolute z-20 h-[400px] min-w-[250px] px-4 pb-16 lg:h-[500px] lg:w-[350px]"
+						className="absolute z-20 h-auto w-[400] px-4 pb-16 lg:w-full"
 						alt="Portrait of Angel Zhang"
 					/>
-					<div className="absolute bottom-0 z-30 h-1/3 w-full bg-zinc-500">
+					<div className="absolute -bottom-16 z-30 h-1/3 w-full bg-zinc-500">
 						<div className="p-6 text-sm lg:text-lg">
 							<p className="pb-2 text-2xl font-bold text-white lg:text-4xl">
 								{t("contact")}
