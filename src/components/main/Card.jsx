@@ -36,9 +36,9 @@ export default function Card({ title, description, photos, badges, link }) {
 	}, [])
 
 	return (
-		<div className="p-3.5">
+		<div className="pt-3.5">
 			<div className="relative rounded-3xl border">
-				<div className="relative flex flex-col justify-between px-10 pt-8">
+				<div className="relative flex flex-col justify-between p-6 pt-8 lg:px-10">
 					<p className="text-4xl font-bold leading-none">{title}</p>
 
 					<div className="py-6">
