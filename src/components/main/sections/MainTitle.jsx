@@ -15,7 +15,7 @@ export default function MainTitle() {
 				<h2 className="shadow-background pb-10 text-3xl text-blue-200 drop-shadow-2xl lg:text-6xl">
 					{t("software-developer")}
 				</h2>
-				<Badge text={`${t("available-to-work")}`} color="#66ff94" />
+				{/*<Badge text={`${t("available-to-work")}`} color="#66ff94" />*/}
 
 				<h3 className="text-balance pt-16 text-2xl lg:text-3xl">
 					{/*{t("in-progress")}*/}
