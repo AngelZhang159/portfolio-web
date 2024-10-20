@@ -1,4 +1,4 @@
-export const badges = [
+export const MundoSMSBadges = [
 	{
 		text: "VS Code",
 		icon: "/icons/vscode.svg",
@@ -28,5 +28,14 @@ export const badges = [
 		icon: "/icons/kamailio.svg",
 		color: "#ffffff",
 		alt: "Kamailio icon",
+	},
+]
+
+export const LucaTICBadges = [
+	{
+		text: "Spring Boot",
+		icon: "/icons/springboot.svg",
+		color: "#72b545",
+		alt: "Spring Boot icon",
 	},
 ]
