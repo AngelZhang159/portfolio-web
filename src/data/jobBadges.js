@@ -33,6 +33,12 @@ export const MundoSMSBadges = [
 
 export const LucaTICBadges = [
 	{
+		text: "Java",
+		icon: "/icons/java.svg",
+		color: "#f89820",
+		alt: "Java icon",
+	},
+	{
 		text: "Spring Boot",
 		icon: "/icons/springboot.svg",
 		color: "#72b545",
