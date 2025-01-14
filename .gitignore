@@ -25,3 +25,5 @@ dist-ssr
 
 build
 public/images/placeholder-image.jpg
+
+package-lock.json
