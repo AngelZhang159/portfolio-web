@@ -1,1 +1,1 @@
-export const domain = "angelzhang.tech"
+export const domain = "angelzhang.dev"
