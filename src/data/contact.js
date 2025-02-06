@@ -8,7 +8,7 @@ export const contact = [
 	{
 		name: "GitHub",
 		link: "https://github.com/AngelZhang159",
-		image: "/icons/github.svg",
+		image: "/icons/github-dark.svg",
 		alt: "GitHub profile",
 	},
 	{

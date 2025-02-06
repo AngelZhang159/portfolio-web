@@ -44,4 +44,34 @@ export const LucaTICBadges = [
 		color: "#72b545",
 		alt: "Spring Boot icon",
 	},
+	{
+		text: "MySQL",
+		icon: "/icons/mysql.svg",
+		color: "#08668e",
+		alt: "MySQL icon",
+	},
+	{
+		text: "Git",
+		icon: "/icons/git.svg",
+		color: "#F05032",
+		alt: "Git icon",
+	},
+	{
+		text: "GitHub",
+		icon: "/icons/github.svg",
+		color: "#fff",
+		alt: "GitHub icon",
+	},
+	{
+		text: "Jira",
+		icon: "/icons/jira.svg",
+		color: "#0052CC",
+		alt: "Jira icon",
+	},
+	{
+		text: "Postman",
+		icon: "/icons/postman.svg",
+		color: "#FF6C37",
+		alt: "Postman icon",
+	},
 ]

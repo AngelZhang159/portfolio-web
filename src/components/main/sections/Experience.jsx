@@ -4,6 +4,7 @@ import SectionFrame from "../SectionFrame"
 import SectionTitle from "../SectionTitle"
 import { LucaTICBadges, MundoSMSBadges } from "../../../data/jobBadges"
 import { t } from "i18next"
+import { Trans } from "react-i18next"
 
 export default function Experience() {
 	return (
@@ -11,6 +12,10 @@ export default function Experience() {
 			<SectionTitle fromColor={"from-green-300"} toColor={"to-yellow-200"}>
 				{t("experience")}
 			</SectionTitle>
+
+			{/*
+			Refactor into components
+			*/}
 
 			<div className="inline-flex">
 				<div className="flex flex-col items-center pr-8 pt-16 lg:pr-0 lg:pt-0">
@@ -34,7 +39,28 @@ export default function Experience() {
 						</p>
 						<p className="underline">Luca Soluciones en TIC, S.L.</p>
 						<br />
-						<p>{t("lucatic-def")}</p>
+						<Trans i18nKey="luca-tic-def">
+							<p>
+								An intensive course on Java, Cloud, and Microservices with
+								Spring, lasting 272 hours, focused on developing scalable and
+								distributed applications.
+							</p>
+							<br />
+							<p>
+								The program covers Java and the Spring Framework, including
+								Spring Boot, Spring Data JPA for SQL database access, and key
+								tools for microservice architecture such as Eureka, Spring Cloud
+								Config, Spring Web, Spring Cloud Gateway, Circuit Breaker, and
+								OpenFeign for service communication.
+							</p>
+							<br />
+							<p>
+								Through group projects, agile methodologies with JIRA were
+								applied,and version control was managed with Git/GitHub.
+								Additionally, testing tools were used to implement tests and
+								ensure software quality.
+							</p>
+						</Trans>
 						<br />
 
 						<BadgeGroup badges={LucaTICBadges} />
