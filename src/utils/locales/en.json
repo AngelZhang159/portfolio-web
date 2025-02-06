@@ -22,7 +22,8 @@
   "go-to-github": "Go to GitHub ➡️",
   "pr-portfolio-desc": "I created this website to showcase my portfolio and projects, while also enhancing my React and web development skills.",
   "mundosms-date": "April - Junio 2024",
-  "lucatic-backend-dev": "Backend developer",
+  "lucatic-backend-dev": "Backend developer with microservices",
   "lucatic-def": "Currently doing backend training with Spring Boot",
-  "lucatic-date": "November 2024 - Present"
+  "lucatic-date": "November 2024 - Present",
+  "luca-tic-def": "<0>An intensive course on Java, Cloud, and Microservices with Spring, lasting 272 hours, focused on developing scalable and distributed applications. </0><1 /><2>The program covers Java and the Spring Framework, including Spring Boot, Spring Data JPA for SQL database access, and key tools for microservice architecture such as Eureka, Spring Cloud Config, Spring Web, Spring Cloud Gateway, Circuit Breaker, and OpenFeign for service communication.</2><3 /><4>Through group projects, we applied agile methodologies with JIRA, and we managed version control with Git/GitHub. Additionally, we used testing tools like JUnit to ensure software quality.</4>"
 }

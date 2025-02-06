@@ -22,7 +22,8 @@
   "go-to-github": "Ir a GitHub ➡️",
   "pr-portfolio-desc": "Creé este sitio web para mostrar mi portafolio y proyectos, y al mismo tiempo mejorar mis habilidades de desarrollo web y aprender React.",
   "mundosms-date": "Abril - Junio 2024",
-  "lucatic-backend-dev": "Desarrollador backend",
+  "lucatic-backend-dev": "Desarrollador backend con microservicios",
   "lucatic-def": "Actualmente realizando una formación de backend con Spring Boot",
-  "lucatic-date": "Noviembre 2024 - Presente"
+  "lucatic-date": "Noviembre 2024 - Presente",
+  "luca-tic-def": "<0> Curso intensivo de Java, Cloud y Microservicios con Spring con una duración de 272 horas, enfocado en el desarrollo de aplicaciones escalables y distribuidas. </0> <1 /> <2> El programa abarca Java y el Spring Framework, incluyendo Spring Boot, Spring Data JPA para el acceso a bases de datos SQL, y herramientas clave para la arquitectura de microservicios como Eureka, Spring Cloud Config, Spring Web, Spring Cloud Gateway, Circuit Breaker y OpenFeign para la comunicación entre servicios. </2> <3/> <4> A través de proyectos grupales, aplicamos metodologías ágiles con JIRA y trabajamos con Git/GitHub para el control de versiones. Además, implementamos pruebas con herramientas de testing como JUnit para garantizar la calidad del software. </4>"
 }
