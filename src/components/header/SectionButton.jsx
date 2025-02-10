@@ -22,7 +22,7 @@ export default function SectionButton({ text, section, onClick }) {
 	return (
 		<li
 			href={`/${section}`}
-			className="transition-transform hover:scale-110 hover:text-white"
+			className="cursor-pointer transition-transform hover:scale-110 hover:text-white"
 			onClick={handleClick}
 		>
 			{text}

@@ -11,7 +11,7 @@ export default function WebInfo() {
 				<b className="text-primary">GitHub Pages</b>, and served by
 				<b className="text-primary">Cloudflare</b>. <br />
 				<br />
-				<a className="font-bold"> ➡️ Check out the code here! </a>
+				<a className="font-bold" href="https://github.com/AngelZhang159/portfolio-web"> ➡️ Check out the code here! </a>
 			</Trans>
 		</p>
 	)
