@@ -16,7 +16,7 @@ export default function MainTitle () {
           {t('software-developer')}
         </h2>
 
-        <DownloadButton link='cv-angel-zhang.pdf' text='⬇️ Curriculum' download='CV-Angel-Zhang.docx' />
+        <DownloadButton link='cv-angel-zhang.pdf' text='⬇️ Curriculum' download='cv-angel-zhang.pdf' />
 
         <h3 className='text-balance pt-16 text-2xl lg:text-3xl'>
           {/* {t("in-progress")} */}
