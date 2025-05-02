@@ -20,6 +20,7 @@ export default function Projects() {
 							description={project.description}
 							photos={project.photos}
 							badges={project.badges}
+							repo={project.repo}
 							link={project.link}
 						/>
 					)

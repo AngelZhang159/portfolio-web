@@ -9,7 +9,14 @@ import "swiper/css"
 import "swiper/css/navigation"
 import { t } from "i18next"
 
-export default function Card({ title, description, photos, badges, link }) {
+export default function Card({
+	title,
+	description,
+	photos,
+	badges,
+	repo,
+	link,
+}) {
 	const [slidesPerView, setSlidesPerView] = useState(1)
 
 	useEffect(() => {
@@ -39,7 +46,7 @@ export default function Card({ title, description, photos, badges, link }) {
 		<div className="p-3.5">
 			<div className="relative rounded-3xl border">
 				<div className="relative flex flex-col justify-between px-6 pt-8 lg:px-10">
-					<p className="text-4xl font-bold leading-none">{title}</p>
+					<p className="text-4xl leading-none font-bold">{title}</p>
 
 					<div className="py-6">
 						<Swiper
@@ -63,16 +70,29 @@ export default function Card({ title, description, photos, badges, link }) {
 						</Swiper>
 
 						<p
-							className={`break-words pt-4 ${photos == null ? "line-clamp-none lg:line-clamp-6" : "lg:line-clamp-3"}`}
+							className={`pt-4 break-words ${photos == null ? "line-clamp-none lg:line-clamp-6" : "lg:line-clamp-3"}`}
 						>
 							{t(description)}
 						</p>
 
 						<BadgeGroup badges={badges} />
 
-						<div className="flex w-full flex-row-reverse">
-							<LinkButton text={t("go-to-github")} link={link} />
-						</div>
+						{repo || link ? (
+							<div className="flex w-full flex-row-reverse gap-4">
+								{repo ? (
+									<LinkButton text={t("go-to-github")} link={repo} />
+								) : (
+									<></>
+								)}
+								{link ? (
+									<LinkButton text={t("go-to-link")} link={link} />
+								) : (
+									<></>
+								)}
+							</div>
+						) : (
+							<></>
+						)}
 					</div>
 				</div>
 			</div>
@@ -83,9 +103,8 @@ export default function Card({ title, description, photos, badges, link }) {
 Card.propTypes = {
 	title: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
-	desc_tl: PropTypes.string.isRequired,
 	photos: PropTypes.array,
 	photo: PropTypes.string,
 	badges: PropTypes.array.isRequired,
-	link: PropTypes.string.isRequired,
+	repo: PropTypes.string.isRequired,
 }

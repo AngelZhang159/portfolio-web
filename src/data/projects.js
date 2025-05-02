@@ -1,5 +1,121 @@
 export const projects = [
 	{
+		title: "Re-View",
+		description: "pr-re-view-desc",
+		photos: [
+			// { photo: "/images/armonia-skills-android/home.webp", alt: "Home" },
+			// { photo: "/images/armonia-skills-android/skill.webp", alt: "Skill" },
+			// {
+			// 	photo: "/images/armonia-skills-android/new-skill.webp",
+			// 	alt: "New Skill",
+			// },
+			// {
+			// 	photo: "/images/armonia-skills-android/new-skill-details.webp",
+			// 	alt: "New Skill details",
+			// },
+			// { photo: "/images/armonia-skills-android/login.webp", alt: "Login" },
+			// {
+			// 	photo: "/images/armonia-skills-android/register.webp",
+			// 	alt: "Register",
+			// },
+			// { photo: "/images/armonia-skills-android/balance.webp", alt: "Balance" },
+		],
+		badges: [
+			{
+				text: "Java",
+				icon: "/icons/java.svg",
+				color: "#f89820",
+				alt: "Java icon",
+			},
+			{
+				text: "Spring Boot",
+				icon: "/icons/springboot.svg",
+				color: "#72b545",
+				alt: "Spring Boot icon",
+			},
+			{
+				text: "Angular",
+				icon: "/icons/angular.svg",
+				color: "#ff1975",
+				alt: "Angular icon",
+			},
+			{
+				text: "IntelliJ IDEA",
+				icon: "/icons/intellij.svg",
+				color: "#0a81ff",
+				alt: "IntelliJ IDEA icon",
+			},
+			{
+				text: "Tailwind CSS",
+				icon: "/icons/tailwind.svg",
+				color: "#06B6D4",
+				alt: "Tailwind CSS icon",
+			},
+			{
+				text: "HTML5",
+				icon: "/icons/html.svg",
+				color: "#E34F26",
+				alt: "HTML icon",
+			},
+			{
+				text: "CSS3",
+				icon: "/icons/css.svg",
+				color: "#663399",
+				alt: "CSS icon",
+			},
+			{
+				text: "TypeScript",
+				icon: "/icons/typescript.svg",
+				color: "#3178C6",
+				alt: "TypeScript icon",
+			},
+			{
+				text: "PrimeNG",
+				icon: "/icons/primeng.svg",
+				color: "#DD0031",
+				alt: "PrimeNG icon",
+			},
+			{
+				text: "Cloudflare",
+				icon: "/icons/cloudflare.svg",
+				color: "#F38020",
+				alt: "Cloudflare icon",
+			},
+			{
+				text: "Docker",
+				icon: "/icons/docker.svg",
+				color: "#2496ED",
+				alt: "Docker icon",
+			},
+			{
+				text: "Kubernetes",
+				icon: "/icons/kubernetes.svg",
+				color: "#326CE5",
+				alt: "Kubernetes icon",
+			},
+			{
+				text: "CockroachDB",
+				icon: "/icons/cockroachdb.svg",
+				color: "#0080FF",
+				alt: "CockroachDB icon",
+			},
+			{
+				text: "Digital Ocean",
+				icon: "/icons/digitalocean.svg",
+				color: "#0080FF",
+				alt: "Digital Ocean icon",
+			},
+			{
+				text: "Vercel",
+				icon: "/icons/vercel.svg",
+				color: "#fff",
+				alt: "Vercel icon",
+			},
+		],
+		// repo: "https://github.com/AngelZhang159/armonia-skills",
+		link: "https://re-view.angelzhang.dev/",
+	},
+	{
 		title: "Armonia Skills Android",
 		description: "pr-armonia-skills-desc",
 		photos: [
@@ -34,7 +150,7 @@ export const projects = [
 				alt: "Android Studio icon",
 			},
 		],
-		link: "https://github.com/AngelZhang159/armonia-skills",
+		repo: "https://github.com/AngelZhang159/armonia-skills",
 	},
 	{
 		title: "Armonia Skills Backend",
@@ -71,7 +187,7 @@ export const projects = [
 				alt: "AWS icon",
 			},
 		],
-		link: "https://github.com/AngelZhang159/armonia-skills-back",
+		repo: "https://github.com/AngelZhang159/armonia-skills-back",
 	},
 	{
 		title: "Portfolio",
@@ -126,6 +242,6 @@ export const projects = [
 				alt: "Cloudflare icon",
 			},
 		],
-		link: "https://github.com/AngelZhang159/portfolio-web",
+		repo: "https://github.com/AngelZhang159/portfolio-web",
 	},
 ]
