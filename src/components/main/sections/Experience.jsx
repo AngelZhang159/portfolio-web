@@ -71,7 +71,7 @@ export default function Experience() {
 			<div className="inline-flex">
 				<div className="flex flex-col items-center pr-8 lg:pr-0 lg:pt-0">
 					<div className="h-6 w-6 rounded-full bg-green-400"></div>
-					<div className="h-full w-1 bg-gradient-to-b from-green-200 to-transparent"></div>
+					<div className="h-full w-1 bg-linear-to-b from-green-200 to-transparent"></div>
 				</div>
 
 				<div className="lg:inline-flex">
