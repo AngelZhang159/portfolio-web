@@ -25,13 +25,13 @@ export default function About() {
 				</div>
 
 				<div className="flex justify-center">
-					<div className="relative flex h-[400px] w-96 justify-center bg-zinc-800 lg:h-[500px] lg:min-w-[350px] lg:justify-end">
+					<div className="relative flex h-[370px] w-96 justify-center bg-zinc-800 lg:h-[500px] lg:min-w-[350px] lg:justify-end">
 						<img
 							src="/images/portrait.webp"
 							className="absolute z-20 h-[400px] min-w-[250px] px-4 pb-16 lg:h-auto lg:w-full"
 							alt="Portrait of Angel Zhang"
 						/>
-						<div className="absolute -bottom-16 z-30 h-1/3 w-full bg-zinc-500">
+						<div className="absolute -bottom-16 z-30 h-1/4 w-full bg-zinc-500">
 							<div className="p-6 text-sm lg:text-lg">
 								<p className="pb-2 text-2xl font-bold text-white lg:text-4xl">
 									{t("contact")}
@@ -43,14 +43,6 @@ export default function About() {
 										alt="Email icon"
 									/>
 									<p>angelzhang159@gmail.com</p>
-								</div>
-								<div className="flex items-center">
-									<img
-										src="/icons/phone.svg"
-										className="pr-4"
-										alt="Phone number icon"
-									/>
-									<p>+34 671315209</p>
 								</div>
 							</div>
 						</div>
