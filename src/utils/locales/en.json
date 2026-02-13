@@ -11,6 +11,12 @@
   "the-company": "The company",
   "company-def": "MundoSMS is a telecommunications operator that offers small and medium-sized businesses a customizable phone system, along with other services such as internet and sending SMS to clients.",
   "my-role": "My role",
+  "mundosms-the-company": "The company",
+  "mundosms-company-def": "MundoSMS is a telecommunications operator that offers small and medium-sized businesses a customizable phone system, along with other services such as internet and sending SMS to clients.",
+  "mundosms-my-role": "My role",
+  "mundosms-first-app": "Developed their first mobile application for Android and iOS from an open-source app",
+  "mundosms-deployed-app": "Launched the app in the Google Play Store and Apple App Store",
+  "mundosms-deployed-server": "Deployed a complemetary Linux server with Kamailio for the app",
   "recent-graduate": "I am a recent graduate with a degree in Multiplatform Application Development (<1>DAM</1>), and I have experience in various programming languages, including <3>Java</3>.",
   "driven-by": "I am driven by the challenge of constantly improving and adapting to new technologies. I particularly enjoy optimizing user experiences, whether by enhancing performance or refining interfaces.",
   "available-to-work": "Available to work",
@@ -23,9 +29,12 @@
   "go-to-github": "Go to GitHub ➡️",
   "go-to-link": "Link 🌐",
   "pr-portfolio-desc": "I created this website to showcase my portfolio and projects, while also enhancing my React and web development skills.",
-  "mundosms-date": "April - Junio 2024",
+  "mundosms-date": "October 2025 - Currently",
   "lucatic-backend-dev": "Backend developer with microservices",
   "lucatic-def": "Currently doing backend training with Spring Boot",
   "lucatic-date": "November 2024 - Present",
-  "luca-tic-def": "<0>An intensive course on Java, Cloud, and Microservices with Spring, lasting 272 hours, focused on developing scalable and distributed applications. </0><1 /><2>The program covers Java and the Spring Framework, including Spring Boot, Spring Data JPA for SQL database access, and key tools for microservice architecture such as Eureka, Spring Cloud Config, Spring Web, Spring Cloud Gateway, Circuit Breaker, and OpenFeign for service communication.</2><3 /><4>Through group projects, we applied agile methodologies with JIRA, and we managed version control with Git/GitHub. Additionally, we used testing tools like JUnit to ensure software quality.</4>"
+  "luca-tic-def": "<0>An intensive course on Java, Cloud, and Microservices with Spring, lasting 272 hours, focused on developing scalable and distributed applications. </0><1 /><2>The program covers Java and the Spring Framework, including Spring Boot, Spring Data JPA for SQL database access, and key tools for microservice architecture such as Eureka, Spring Cloud Config, Spring Web, Spring Cloud Gateway, Circuit Breaker, and OpenFeign for service communication.</2><3 /><4>Through group projects, we applied agile methodologies with JIRA, and we managed version control with Git/GitHub. Additionally, we used testing tools like JUnit to ensure software quality.</4>",
+  "lucatic-desc-1": "An intensive course on Java, Cloud, and Microservices with Spring, lasting 272 hours, focused on developing scalable and distributed applications.",
+  "lucatic-desc-2": "The program covers Java and the Spring Framework, including Spring Boot, Spring Data JPA for SQL database access, and key tools for microservice architecture such as Eureka, Spring Cloud Config, Spring Web, Spring Cloud Gateway, Circuit Breaker, and OpenFeign for service communication.",
+  "lucatic-desc-3": "Through group projects, we applied agile methodologies with JIRA, and we managed version control with Git/GitHub. Additionally, we used testing tools like JUnit to ensure software quality."
 }
